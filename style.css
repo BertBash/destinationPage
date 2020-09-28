@@ -1,0 +1,108 @@
+#s1{
+    background-image: url(https://via.placeholder.com/1000/FF32F);
+    padding: 3rem;
+}
+
+#logo{
+    width: 50px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#welcome{
+    padding: 3rem 0;
+    height: 44rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#welcome p{
+    font-size: 24px;
+}
+
+#welcome button{
+    width: 9rem;
+}
+
+#s2{
+    height: 20rem;
+    width: 100%;
+    display: flex;
+}
+
+#booking{
+    padding: 3rem;
+    height: 100%;
+    width: 50%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#flights{
+    padding: 3rem;
+    height: 100%;
+    width: 50%;
+    background-color: greenyellow;
+    display: flex;
+    justify-content: space-around;
+}
+
+#weather{
+    display: flex;
+    justify-content: space-around;
+}
+
+#flights div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 20%;
+    background-color: beige;
+}
+
+#s3{
+    padding: 6rem;
+    background-color: blueviolet;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+#s3 p{
+    width: 50%;
+    text-align: right;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    padding: 1rem;
+    list-style: none;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    font-size: 46px;
+    color: black;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
