@@ -1,5 +1,27 @@
+/*
+TODO: 
+Increase text visibility
+
+Add Weather updates
+
+Add Time updates
+
+Add flights
+
+Add departures
+
+Add guest counter
+
+Accessability alt text for background images
+
+Find logo
+
+Horizontal lines to seperate title from text
+
+Make buttons a translucent color for easier reading
+*/
 #s1{
-    background-image: url(https://via.placeholder.com/1000/FF32F);
+    background-image: url("./images/bora-bora-3023437_1920.jpg");
     padding: 3rem;
 }
 
@@ -24,31 +46,25 @@ header{
     font-size: 24px;
 }
 
-#welcome button{
-    width: 9rem;
-}
-
 #s2{
+    padding: 3rem;
+    background-image: url(./images/plane-841441_1920.jpg);
     height: 20rem;
     width: 100%;
     display: flex;
 }
 
 #booking{
-    padding: 3rem;
     height: 100%;
     width: 50%;
-    background-color: aqua;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
 
 #flights{
-    padding: 3rem;
     height: 100%;
     width: 50%;
-    background-color: greenyellow;
     display: flex;
     justify-content: space-around;
 }
@@ -64,12 +80,12 @@ header{
     justify-content: space-evenly;
     align-items: center;
     width: 20%;
-    background-color: beige;
+    background-color: grey;
 }
 
 #s3{
+    background-image: url("./images/paradise-598201_1920.jpg");
     padding: 6rem;
-    background-color: blueviolet;
     height: 40rem;
     display: flex;
     flex-direction: column;
@@ -80,6 +96,7 @@ header{
 #s3 p{
     width: 50%;
     text-align: right;
+    font-size: 20pt;
 }
 
 ul{
@@ -94,15 +111,24 @@ li{
 
 a{
     text-decoration: none;
-    color: black;
 }
 
 h1{
     font-size: 46px;
-    color: black;
+}
+
+button{
+    background-color: transparent;
+    border-radius: 5px;
+    height: 2rem;
+    width: 10rem;
+    font-size: 14pt;
+
 }
 
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
